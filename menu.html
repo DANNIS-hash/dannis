@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Daniss Cafetería</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+        <a href="index.html" style="text-decoration: none; color: inherit;">Daniss Cafetería</a>
+        </h1>
+    </header>
+
+    
+                <nav>
+                <button class="nav-toggle" aria-label="Toggle navigation"></button>
+                
+        <ul>
+            <li><a href="nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="reseñas.html">Reseñas</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Nuestro Menú</h2>
+        <p>Descubre la variedad de postres que ofrecemos para hacer de tu visita una experiencia inolvidable. Seleccionamos cuidadosamente nuestros ingredientes para garantizar frescura y calidad en cada uno de nuestros productos.</p>
+        
+        <div class="menu">
+            <div class="menu-item">
+                <img src="images/PastelCompleto2.jpeg" alt="PastelCompleto">
+                <div class="menu-info">
+                    <h3>Pastel Completo</h3>
+                    <p>Un pastel completo con sabor a elegir, ideal para compartir entre familia y amigos</p>
+                    <span class="price">$12.50</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/PastelCumpleaños (2).jpeg" alt="PasteñCumpleaños">
+                <div class="menu-info">
+                    <h3>Patel Ciumpleaños</h3>
+                    <p>Celebra tus momentos especiales con nuestro delicioso pastel de cumpleaños. </p>
+                    <span class="price">$13.50</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="images/PedasosDePastel.jpeg" alt="Chiguiles">
+                <div class="menu-info">
+                    <h3>Pedazos de pastel</h3>
+                    <p>Porciones perfectas para saborear la dulzura en cada bocado. Nuestros pedazos de pastel destacan por su esponjosidad, rellenos irresistibles y decoración delicada.</p>
+                    <span class="price">$1.50</span>
+                </div>
+            </div>
+    
+            <div class="menu-item">
+                <img src="images/BorrachosDeChocolate.jpeg" alt="Croissant">
+                <div class="menu-info">
+                    <h3>Borrachos de Chocolate</h3>
+                    <p>DPequeños placeres que derriten corazones. Nuestros dulces de chocolate están elaborados con cacao de la más alta calidad, ofreciendo una textura suave y un sabor irresistible. </p>
+                    <span class="price">$1.50</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/humita.jpg" alt="Humita">
+                <div class="menu-info">
+                    <h3>Humita</h3>
+                    <p>Deléitese con nuestra auténtica humita serrana, una delicada preparación que celebra la tradición ancestral andina.  </p>
+                    <span class="price">$1.50</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/TamalLojano.jpeg" alt="Tamal Lojano">
+                <div class="menu-info">
+                    <h3>Tamal Lojano</h3>
+                    <p>Descubra el sabor de la cocina ancestral sureña en nuestro tamal lojano, una delicada obra maestra envuelta en hoja de achira.  </p>
+                    <span class="price">$2.00</span>
+                </div>
+            </div>
+
+
+            <div class="menu-item">
+                <img src="images/quimbolito.jpg" alt="Quimbolito">
+                <div class="menu-info">
+                    <h3>Quimbolito</h3>
+                    <p>Sumérjase en la dulce tradición ecuatoriana con nuestro quimbolito artesanal, un delicado envuelto que cautiva desde el primer bocado  </p>
+                    <span class="price">$1.80</span>
+                </div>
+            </div>
+        
+            <div class="menu-item">
+                <img src="images/Chiguiles.jpg" alt="Chiguiles">
+                <div class="menu-info">
+                    <h3>Chiguiles</h3>
+                    <p>Descubra el sabor auténtico de Guaranda en nuestro chigüil artesanal, una deliciosa preparación que rinde homenaje a la cocina tradicional bolivarense.  </p>
+                    <span class="price">$2.30</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <!-- Logo y Nombre -->
+            <div class="footer-logo">
+                <h1>Dannis Cafetería</h1>
+            </div>
+    
+            <!-- Información de contacto -->
+            <div class="footer-contact">
+                <h3>CONTÁCTANOS</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Parque Central de Tambillo</p>
+                <p><i class="fas fa-phone-alt"></i> (593) 098 500 7214</p>
+            </div>
+            
+        </div>
+    
+        <!-- Línea de Créditos -->
+        <div class="footer-bottom">
+            <p>&copy;| 2024 | Dannis Cafetería| <a href="#">Términos y Condiciones</a> - <a href="#">Políticas de Privacidad</a> | Desarrollado por <a href="#">Backend Studio</a> </p>
+        </div>
+    </footer>
+
+                    <script>
+                    const navToggle = document.querySelector('.nav-toggle');
+                    const nav = document.querySelector('nav ul');
+                    navToggle.addEventListener('click', () => {
+                        nav.classList.toggle('nav-open');
+                    });
+                    </script>
+                    </body>
+                    
+</html>
+

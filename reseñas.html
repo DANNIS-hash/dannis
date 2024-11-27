@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas - Daniss Cafetería</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+        <a href="index.html" style="text-decoration: none; color: inherit;">Daniss Cafetería</a>
+        </h1>
+    </header>
+
+    
+                <nav>
+                <button class="nav-toggle" aria-label="Toggle navigation"></button>
+                
+        <ul>
+            <li><a href="nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="reseñas.html">Reseñas</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Lo que dicen nuestros clientes</h2>
+        <p>En Dannis antojitos saludables , valoramos cada una de las experiencias de nuestros clientes. Nos enorgullece ofrecer un ambiente acogedor, unos postres saludables y un servicio amable. A continuación, algunas opiniones de quienes ya nos han visitado.</p>
+        <div class="reviews">
+            <div class="review-card">
+                <p class="review-text">"Excelente servicio para disfrutar de una buen postre. El personal siempre es muy amable. ¡Volveré pronto!"</p>
+                <p class="review-author">- Laura M.</p>
+            </div>
+            <div class="review-card">
+                <p class="review-text">"Los postres son deliciosos, y los pasteles son lo mejor que he probado en mucho tiempo. La decoración es hermosa y hace que quieras volver."</p>
+                <p class="review-author">- Carlos G.</p>
+            </div>
+            <div class="review-card">
+                <p class="review-text">"Unos postres increibles para disfrutar una tarde. Además, ofrecen opciones de postres Ecuatorianos que están deliciosos. ¡Recomendado!"</p>
+                <p class="review-author">- Ana P.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <!-- Logo y Nombre -->
+            <div class="footer-logo">
+                <h1>Dannis Cafetería</h1>
+            </div>
+    
+            <!-- Información de contacto -->
+            <div class="footer-contact">
+                <h3>CONTÁCTANOS</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Parque Central de Tambillo</p>
+                <p><i class="fas fa-phone-alt"></i> (593) 098 500 7214</p>
+            </div>
+            
+        </div>
+    
+        <!-- Línea de Créditos -->
+        <div class="footer-bottom">
+            <p>&copy;| 2024 | Dannis Cafetería| <a href="#">Términos y Condiciones</a> - <a href="#">Políticas de Privacidad</a> | Desarrollado por <a href="#">Backend Studio</a> </p>
+        </div>
+    </footer>
+
+                    <script>
+                    const navToggle = document.querySelector('.nav-toggle');
+                    const nav = document.querySelector('nav ul');
+                    navToggle.addEventListener('click', () => {
+                        nav.classList.toggle('nav-open');
+                    });
+                    </script>
+                    </body>
+                    
+</html>

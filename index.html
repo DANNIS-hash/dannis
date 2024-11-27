@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Daniss Cafetería</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- Encabezado con Banner de Bienvenida -->
+    <header class="banner">
+    <h1>
+        <a href="index.html" style="text-decoration: none; color: inherit;">Daniss Cafetería</a>
+     </h1>
+    </header>
+
+    <!-- Barra de Navegación -->
+    
+                <nav>
+                <button class="nav-toggle" aria-label="Toggle navigation"></button>
+                
+        <ul>
+            <li><a href="nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="reseñas.html">Reseñas</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de Introducción -->
+    <section class="intro">
+        <h2>Descubre Daniss Cafetería</h2>
+        <p>En Daniss Postres Saludables, nos dedicamos a brindar una experiencia única. Ya sea que busques un momento de tranquilidad o un espacio para compartir, te invitamos a disfrutar de nuestras bebidas y postres preparados con pasión y dedicación.</p>
+        <a href="nosotros.html" class="button">Conoce Más</a>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section class="featured-products">
+        <h2>Productos Destacados</h2>
+        <div class="product-cards">
+            <div class="menu-item">
+                <img src="images/PastelCompleto2.jpeg" alt="PastelCompleto">
+                <div class="menu-info">
+                    <h3>Pastel Completo</h3>
+                    <p>Un pastel completo con sabor a elegir, ideal para compartir entre familia y amigos</p>
+                    <span class="price">$12.50</span>
+                </div>
+                <div class="menu-item">
+                    <img src="images/PedasosDePastel.jpeg" alt="Chiguiles">
+                    <div class="menu-info">
+                        <h3>Pedazos de pastel</h3>
+                        <p>Porciones perfectas para saborear la dulzura en cada bocado. Nuestros pedazos de pastel destacan por su esponjosidad, rellenos irresistibles y decoración delicada.</p>
+                        <span class="price">$1.50</span>
+                    </div>
+            <div class="menu-item">
+                <img src="images/humita.jpg" alt="Humita">
+                <div class="menu-info">
+                    <h3>Humita</h3>
+                    <p>Deléitese con nuestra auténtica humita serrana, una delicada preparación que celebra la tradición ancestral andina.  </p>
+                    <span class="price">$1.50</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="images/TamalLojano.jpeg" alt="Tamal Lojano">
+                <div class="menu-info">
+                    <h3>Tamal Lojano</h3>
+                    <p>Descubra el sabor de la cocina ancestral sureña en nuestro tamal lojano, una delicada obra maestra envuelta en hoja de achira.  </p>
+                    <span class="price">$2.00</span>
+                </div>
+            </div>
+        </div>
+        <a href="menu.html" class="button">Ver Más del Menú</a>
+    </section>
+
+    <!-- Reseñas Destacadas -->
+    <section class="featured-reviews">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="review-cards">
+            <div class="review-card">
+                <p>"Un lugar perfecto para relajarse y disfrutar de un café de calidad. El ambiente es acogedor, y el servicio es excelente."</p>
+                <p class="review-author">- Laura M.</p>
+            </div>
+            <div class="review-card">
+                <p>"Me encanta el cappuccino aquí. Siempre es cremoso y delicioso, el lugar ideal para desconectar."</p>
+                <p class="review-author">- Carlos G.</p>
+            </div>
+            <div class="review-card">
+                <p>"El cheesecake es mi favorito. No puedo resistirme a pedir uno cada vez que vengo. ¡Totalmente recomendable!"</p>
+                <p class="review-author">- Ana P.</p>
+            </div>
+        </div>
+        <a href="reseñas.html" class="button">Ver Más Reseñas</a>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo y Nombre -->
+            <div class="footer-logo">
+                <h1>Dannis Cafetería</h1>
+            </div>
+    
+            <!-- Información de contacto -->
+            <div class="footer-contact">
+                <h3>CONTÁCTANOS</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Parque Central de Tambillo</p>
+                <p><i class="fas fa-phone-alt"></i> (593) 098 500 7214</p>
+            </div>
+            
+        </div>
+    
+        <!-- Línea de Créditos -->
+        <div class="footer-bottom">
+            <p>&copy;| 2024 | Dannis Cafetería| <a href="#">Términos y Condiciones</a> - <a href="#">Políticas de Privacidad</a> | Desarrollado por <a href="#">Backend Studio</a> </p>
+        </div>
+    </footer>
+    
+
+                    <script>
+                    const navToggle = document.querySelector('.nav-toggle');
+                    const nav = document.querySelector('nav ul');
+                    navToggle.addEventListener('click', () => {
+                        nav.classList.toggle('nav-open');
+                    });
+                    </script>
+                    </body>
+                    
+</html>
+
+

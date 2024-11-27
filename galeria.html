@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Daniss Cafetería</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+     <a href="index.html" style="text-decoration: none; color: inherit;">Daniss Cafetería</a>
+        </h1>
+    </header>
+
+    
+                <nav>
+                <button class="nav-toggle" aria-label="Toggle navigation"></button>
+                
+        <ul>
+            <li><a href="nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="reseñas.html">Reseñas</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Galería de Fotos</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/Dannis4.jpeg" alt="Dannis">
+               
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/Dannis1.jpeg" alt="Dannis1">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/Dannis2.jpeg" alt="Dannis2"> 
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/Cliente1 (2).jpeg" alt="Cliente1">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/Cliente1.jpeg" alt="cliente2">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/Dannis.jpeg" alt="Dannis">
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <!-- Logo y Nombre -->
+            <div class="footer-logo">
+                <h1>Dannis Cafetería</h1>
+            </div>
+    
+            <!-- Información de contacto -->
+            <div class="footer-contact">
+                <h3>CONTÁCTANOS</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Parque Central de Tambillo</p>
+                <p><i class="fas fa-phone-alt"></i> (593) 098 500 7214</p>
+            </div>
+            
+        </div>
+    
+        <!-- Línea de Créditos -->
+        <div class="footer-bottom">
+            <p>&copy;| 2024 | Dannis Cafetería| <a href="#">Términos y Condiciones</a> - <a href="#">Políticas de Privacidad</a> | Desarrollado por <a href="#">Backend Studio</a> </p>
+        </div>
+    </footer>
+
+                    <script>
+                    const navToggle = document.querySelector('.nav-toggle');
+                    const nav = document.querySelector('nav ul');
+                    navToggle.addEventListener('click', () => {
+                        nav.classList.toggle('nav-open');
+                    });
+                    </script>
+                    </body>
+                    
+</html>
+
